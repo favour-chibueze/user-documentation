@@ -305,8 +305,8 @@ When installing the given ``composer.json`` the following occurs:
 
 .. vale off
 
-Updating Mautic Core
-~~~~~~~~~~~~~~~~~~~~
+Updating Mautic Core with Composer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. vale on
 
