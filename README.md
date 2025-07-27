@@ -44,7 +44,7 @@ To do this, run the following at the command line after following the steps belo
 1. Run the command in the /docs folder `sphinx-build -b gettext . docs_translations`
 2. Commit the files created with your pull request
 
-## Local Development using DDEV
+## Build documentation locally using DDEV
 
 We now support [DDEV](https://ddev.com) to simplify local development and testing of documentation updates.
 
