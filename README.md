@@ -44,7 +44,19 @@ To do this, run the following at the command line after following the steps belo
 1. Run the command in the /docs folder `sphinx-build -b gettext . docs_translations`
 2. Commit the files created with your pull request
 
-## Build documentation locally
+## Local Development using DDEV
+
+We now support [DDEV](https://ddev.com) to simplify local development and testing of documentation updates.
+
+Follow these steps:
+
+1. Clone this repository to your local machine.
+2. Navigate into the project directory: `cd user-documentation`
+3. Start the DDEV environment: `ddev start`
+4. After making changes to documentation files, build the updated docs using: `ddev exec make html`
+5. Open your browser and navigate to [https://user-documentation.ddev.site/](https://user-documentation.ddev.site/) to view your changes.
+
+## Build documentation locally (alternative to DDEV)
 
 - [RST Syntax Cheatsheet][RST Cheatsheet]
 - [Sphinx Demo][Sphinx Demo]
