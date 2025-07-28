@@ -13,8 +13,6 @@ green=$(tput setaf 2)
 reset=$(tput sgr0)
 underline=$(tput smul)
 
-# Optional: echo what we're doing
-echo "Building user documentation..."
 echo "${bold}${green}🔧 Building user documentation...${reset}"
 
 # Ensure we're in the right directory
