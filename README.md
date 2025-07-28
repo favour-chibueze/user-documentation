@@ -23,7 +23,7 @@ To make more complex changes, follow the steps below:
 5. Fork the `mautic/user-documentation` repository on GitHub by clicking on the fork button at the top right.
 6. Once forked, if you know your way around Git and you are are writing documentation for something which is specific to the latest version of Mautic, you should branch from `main`.  
 
-If you are writing documentation for a feature which is coming in a future release - e.g. 5.0 - then branch off the relevant branch for that release, which should generally speaking match the branch used in the main mautic/mautic repository - e.g. `5.x`.
+   If you are writing documentation for a feature which is coming in a future release - e.g. 5.0 - then branch off the relevant branch for that release, which should generally speaking match the branch used in the main mautic/mautic repository - e.g. `5.x`.
 7. Type `gh repo clone [your-forked-repo-name]/user-documentation` to clone your forked repository to your local computer.
 8. Open the folder `user-documentation` that is created in your editor.
 9. At the bottom left of your screen, you will see the default branch called 'main' is showing as your active branch. Click this, and a box will appear at the top of the page allowing you to 'create a new branch'. Type a name which relates to the work you plan to do.
@@ -44,19 +44,57 @@ To do this, run the following at the command line after following the steps belo
 1. Run the command in the /docs folder `sphinx-build -b gettext . docs_translations`
 2. Commit the files created with your pull request
 
-## Build documentation locally using DDEV
+## Local development setup
 
-We now support [DDEV](https://ddev.com) to simplify local development and testing of documentation updates.
+There are two ways to set up your local environment.
 
-Follow these steps:
+### 1. With DDEV (recommended)
 
-1. Clone this repository to your local machine.
-2. Navigate into the project directory: `cd user-documentation`
-3. Start the DDEV environment: `ddev start`
-4. After making changes to documentation files, build the updated docs using: `ddev build-docs`
-5. Open your browser and navigate to [https://user-documentation.ddev.site/](https://user-documentation.ddev.site/) to view your changes.
+Mautic uses [DDEV](https://ddev.com) to simplify local development and testing of documentation updates.
 
-## Build documentation locally (alternative to DDEV)
+Go to the [Get Started](https://ddev.com/get-started/) page for instructions to install DDEV on your local machine.
+
+---
+
+> [!NOTE]
+> **For Windows users**: You can install and run DDEV on [traditional Windows](https://ddev.readthedocs.io/en/stable/#system-requirements-traditional-windows). However, it's recommended that you use [Windows Subsystem for Linux 2 (WSL2)](https://learn.microsoft.com/en-us/windows/wsl/about) for faster and better performance.
+>
+> If you're new to WSL, follow the instructions on the [DDEV blog](https://ddev.com/blog/watch-new-windows-installer/) to install and set up WSL and DDEV. 
+
+---
+
+After you've installed DDEV, follow these steps:
+
+1. [Fork and clone](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository to your local machine.
+2. Navigate into the project directory by running: 
+
+   ```bash
+   cd user-documentation
+   ```
+3. Start the DDEV environment with this command:
+
+   ```bash
+   ddev start
+   ```
+4. After making changes to documentation files, you need to build the updated docs by running:
+
+   ```bash
+   ddev build-docs
+   ```
+5. Run the below command to view your changes live on your browser:
+
+   ```bash
+   ddev launch
+   ```
+   
+   This automatically opens your browser and navigates to `https://user-documentation.ddev.site/`.
+
+   **Note:** You must ensure that your changes work as expected. Every time you make changes, run `ddev build-docs` and refresh the page in your browser to see the changes.
+
+> [!TIP]
+> If you don't see the configuration take effect, run `ddev restart` to restart the project.
+
+### 2. With Sphinx (Python application)
 
 - [RST Syntax Cheatsheet][RST Cheatsheet]
 - [Sphinx Demo][Sphinx Demo]
@@ -64,20 +102,23 @@ Follow these steps:
 
 The following provides instructions for how to build docs locally for visualization without pushing to the remote:
 
-1. Install Python 3 for your OS if not already installed
+1. Install [Python 3](https://www.python.org/downloads/) for your OS if not already installed
 2. Install Sphinx `pip install sphinx`
 3. Install sphinx-rtd-theme `pip install sphinx-rtd-theme`
 4. Install MyST Parser `pip install myst_parser`
 5. CD into the docs directory `cd [path to this repo]/docs`
 6. Run `make html`
-7. This will generate HTML in docs/build/html. Setup a web server with the web root as docs/build/html or open docs/build/html/index.html in a browser.
+
+   This will generate HTML in `docs/build/html`. Setup a web server with the web root as `docs/build/html` or open `docs/build/html/index.html` in a browser.
  
-### Vale
+#### Vale
+
 Before pushing, run Vale and address suggestions and errors as applicable.
 1. Install [`vale`][Vale] 
 2. `vale .`
 
-### PhpStorm/PyCharm File Watcher
+#### PhpStorm/PyCharm File Watcher
+
 You can automatically build changes to rst files using a file watcher. 
 1. Go to Preferences -> Tools -> File Watchers -> + button -> custom
 2. Configure the watcher as presented in the screenshot
@@ -92,6 +133,7 @@ You can automatically build changes to rst files using a file watcher.
 [Sphinx Template]: <https://github.com/readthedocs/sphinx_rtd_theme/tree/master/docs/demo>
 [Sphinx Demo]: <https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/structure.html>
 [Vale]: <https://vale.sh/docs/vale-cli/installation/>
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
