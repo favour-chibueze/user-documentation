@@ -86,7 +86,6 @@ linkcheck_ignore = [
     # 400 client error from this domain
     r"https://developers.facebook.com/products/facebook-login/",
     # The URLs below broken and should be replaced by working ones (404 Client Error).
-    r"https://staffwww.fullcoll.edu/sedwards/Nano/NanoKeyboardCommands.html",
     r"https://blog.maxmind.com/search-results*",
     r"https://www.transifex.com/mautic/mautic/",
     # The URL below has timeout. The article is no longer exist.
