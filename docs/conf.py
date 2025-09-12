@@ -83,10 +83,10 @@ linkcheck_ignore = [
     # 403 client error from these domains
     r"https://www.maxmind.com/en/home",
     r"https://www.maxmind.com/en/geolite2/signup",
+    r"https://support.maxmind.com/hc/en-us/search*",
+    r"https://dev.mysql.com/doc/refman/5.7/en/regexp.html",
     # 400 client error from this domain
     r"https://developers.facebook.com/products/facebook-login/",
     # The URLs below broken and should be replaced by working ones (404 Client Error).
     r"https://www.transifex.com/mautic/mautic/",
-    # 403 client error from this domain
-    r"https://support.maxmind.com/hc/en-us/search*",
 ]
