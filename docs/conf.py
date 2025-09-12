@@ -87,8 +87,6 @@ linkcheck_ignore = [
     r"https://developers.facebook.com/products/facebook-login/",
     # The URLs below broken and should be replaced by working ones (404 Client Error).
     r"https://www.transifex.com/mautic/mautic/",
-    # The URL below has timeout. The article is no longer exist.
-    r"https://www.thegeekdiary.com/understanding-basic-file-permissions-and-ownership-in-linux/",
     # 403 client error from this domain
     r"https://support.maxmind.com/hc/en-us/search*",
 ]
