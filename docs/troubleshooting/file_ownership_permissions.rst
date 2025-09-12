@@ -53,6 +53,7 @@ Resetting the permissions of your files and folders requires running some comman
 
 Solution for hosting providers that offer cPanel access
 =======================================================
+
 A script to fix permissions & ownership, on files & directories, for cPanel accounts. You could ask your hosting provider to run that script to reset the permissions to the correct values. Find this handy script here: :xref:`cPanel fix permissions script`.
 
 Identifying the problem
