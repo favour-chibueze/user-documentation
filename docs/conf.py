@@ -74,13 +74,21 @@ linkcheck_ignore = [
     r"https://support.twilio.com/*",
     # This is a demo URL and should not be checked
     r"https://api-ssl.bitly.com/*",
-    #This domain blocks the checker.
+    # This domain blocks the checker (403 Client Error).
     r"https://linuxize.com/*",
     # The GitHub Search UI requires users to be authenticated with session cookies, which we can't set up programmatically
     r"https://github.com/search*",
     # Requires authentication.
     r"https://www.maxmind.com/en/accounts/current*",
-    # The URLs below broken and should be replaced by working ones.
+    # 403 client error from these domains
+    r"https://www.maxmind.com/en/home",
+    r"https://www.maxmind.com/en/geolite2/signup",
+    # 400 client error from this domain
+    r"https://developers.facebook.com/products/facebook-login/",
+    # The URLs below broken and should be replaced by working ones (404 Client Error).
     r"https://staffwww.fullcoll.edu/sedwards/Nano/NanoKeyboardCommands.html",
-    r"https://blog.maxmind.com/search-results*"
+    r"https://blog.maxmind.com/search-results*",
+    r"https://www.transifex.com/mautic/mautic/",
+    # The URL below has timeout. The article is no longer exist.
+    r"https://www.thegeekdiary.com/understanding-basic-file-permissions-and-ownership-in-linux/",
 ]
