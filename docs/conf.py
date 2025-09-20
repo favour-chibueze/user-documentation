@@ -55,7 +55,7 @@ html_context = {
     "display_github": True,  # Integrate GitHub
     "github_user": "mautic",  # Username
     "github_repo": "user-documentation",  # Repository name
-    "github_version": "5.2/",  # Branch name
+    "github_version": "5.2",  # Branch name
     "conf_py_path": "/docs/",  # Path in the repository to conf.py
 }
 
