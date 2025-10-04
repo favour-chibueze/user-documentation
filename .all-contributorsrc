@@ -131,6 +131,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "pedaars",
+      "name": "Aaron Pedwell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11647950?v=4",
+      "profile": "https://pedaars.co.uk",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
