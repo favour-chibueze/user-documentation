@@ -138,7 +138,26 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/11647950?v=4",
       "profile": "https://pedaars.co.uk",
       "contributions": [
-        "doc"
+      "doc"
+      ]
+    },
+    {
+      "login": "adiati98",
+      "name": "Ayu Adiati",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45172775?v=4",
+      "profile": "https://adiati.com",
+      "contributions": [
+        "doc",
+        "review"
+      ]
+    },
+    {
+      "login": "beneyalraj",
+      "name": "Abi beniyal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42829681?v=4",
+      "profile": "https://github.com/beneyalraj",
+       "contributions": [
+       "doc"
       ]
     }
   ],
