@@ -43,6 +43,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://adiati.com"><img src="https://avatars.githubusercontent.com/u/45172775?v=4?s=100" width="100px;" alt="Ayu Adiati"/><br /><sub><b>Ayu Adiati</b></sub></a><br /><a href="https://github.com/mautic/user-documentation/commits?author=adiati98" title="Documentation">📖</a> <a href="https://github.com/mautic/user-documentation/pulls?q=is%3Apr+reviewed-by%3Aadiati98" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/beneyalraj"><img src="https://avatars.githubusercontent.com/u/42829681?v=4?s=100" width="100px;" alt="Abi beniyal"/><br /><sub><b>Abi beniyal</b></sub></a><br /><a href="https://github.com/mautic/user-documentation/commits?author=beneyalraj" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
