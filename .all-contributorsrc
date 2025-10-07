@@ -77,6 +77,97 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "J-Wick4",
+      "name": "John Wick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1954540?v=4",
+      "profile": "https://github.com/J-Wick4",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "jagtapreshma",
+      "name": "jagtapreshma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81143250?v=4",
+      "profile": "https://github.com/jagtapreshma",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "markusVJH",
+      "name": "Markus Heinilä",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121946942?v=4",
+      "profile": "https://github.com/markusVJH",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "uadf",
+      "name": "CPweb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2785980?v=4",
+      "profile": "https://eglise.catholique.fr",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "heebinho",
+      "name": "Renato Heeb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1469531?v=4",
+      "profile": "http://renatoheeb.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "fee-sah-yor",
+      "name": "fisayo~",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101174144?v=4",
+      "profile": "https://github.com/fee-sah-yor",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "pedaars",
+      "name": "Aaron Pedwell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11647950?v=4",
+      "profile": "https://pedaars.co.uk",
+      "contributions": [
+      "doc"
+      ]
+    },
+    {
+      "login": "adiati98",
+      "name": "Ayu Adiati",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45172775?v=4",
+      "profile": "https://adiati.com",
+      "contributions": [
+        "doc",
+        "review"
+      ]
+    },
+    {
+      "login": "beneyalraj",
+      "name": "Abi beniyal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42829681?v=4",
+      "profile": "https://github.com/beneyalraj",
+       "contributions": [
+       "doc"
+      ]
+    },
+    {
+      "login": "favour-chibueze",
+      "name": "Favour Chibueze ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46398983?v=4",
+      "profile": "https://github.com/favour-chibueze",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
