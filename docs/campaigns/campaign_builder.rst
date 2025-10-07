@@ -58,13 +58,13 @@ The actions that Mautic offers in a Campaign include:
    * - **Add Company action**  
      - Associates a Contact with a Company and sets the Company as the primary Company for the Contact.
    * - **Adjust Contact Points**  
-     - Adds or subtracts Points from the Contact’s Point total.
+     - Adds or subtracts Points from the Contact’s Point total or Group.
    * - **Change Campaigns**  
      - Removes a Contact from the existing Campaign, moves them into another Campaign, restarts the current Campaign or a combination of these. You must remove a Contact from a Campaign before restarting the Campaign.
    * - **Change Contact's Stage**  
      - Moves a Contact to the specified Stage.
    * - **Delete Contact**  
-     - Permanently deletes the Contact record along with all the information about that Contact, including the Campaign event log record about that Contact. See the :doc:`Segment docs</contacts/manage_segments>` about how to use this action to delete all Contacts in a Segment.
+     - Permanently deletes the Contact record along with all the information about that Contact, including the Campaign event log record about that Contact. See the :doc:`Segment docs</segments/manage_segments>` about how to use this action to delete all Contacts in a Segment.
    * - **Jump to Event**  
      - Moves Contacts from one point in a Campaign to another without rebuilding events. Use this action to send the Contact to a different path in the Campaign.
    * - **Modify Contact's Segments**
@@ -205,6 +205,8 @@ Here are the different conditions that Mautic offers in the Campaign Builder:
      - Checks if the Contact is a member of selected Segments.
    * - **Contact Tags**    
      - Checks if specified Tags are on the Contact record.
+   * - **Contact points**
+     - Checks if the Contact has a certain number of Points or a Group score.
    * - **Form field value**    
      - Checks if values submitted for a selected field on a selected Form matches specified criteria.
    * - **Has active notification**    
@@ -242,7 +244,7 @@ Triggering Campaign events
 
 .. vale on
 
-Actions and Decisions in Mautic require a :doc:`cron job</set_up/cron_jobs>` which executes the following command at the desired interval:
+Actions and Decisions in Mautic require a :doc:`cron job</configuration/cron_jobs>` which executes the following command at the desired interval:
 
 .. code-block:: shell
 
