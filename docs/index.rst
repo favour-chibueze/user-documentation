@@ -54,6 +54,7 @@ There are different types of documentation available to help you navigate your w
    configuration/maxmind_license
    configuration/command_line_interface
    configuration/cron_jobs
+   configuration/tracking_script
    configuration/variables
    configuration/settings
    configuration/shortener
@@ -166,7 +167,6 @@ There are different types of documentation available to help you navigate your w
    plugins/clearbit
    plugins/connectwise
    plugins/fullcontact
-   plugins/gmail
    plugins/hubspot
    plugins/icontact
    plugins/mailchimp
@@ -180,6 +180,7 @@ There are different types of documentation available to help you navigate your w
    plugins/twilio
    plugins/twitter
    plugins/vtiger
+   plugins/wordpress
    plugins/zapier
    plugins/zoho_crm
 

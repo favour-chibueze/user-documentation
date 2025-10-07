@@ -38,7 +38,7 @@ The following fields are available:
 
 - **Kiosk mode** - If Yes, Mautic turns off tracking of Contacts created through the Form, so that the Form doesn't generate cookies or associate any IP address with the Contact record. Marketers may refer to this as 'data entry mode'. It's ideal for using at conferences or events where several Contacts may enter their information using the same device, as it prevents associating the activity on the device to Contacts.
 
-- **Render style** - If Yes, the Form displays with the styling from either the selected Mautic Theme or the Attributes tab of the Form Fields. When No, the Form adopts the styling of where it's embedded.
+- **Use Theme style** - If Yes, the Form displays with the styling from either the selected Mautic Theme or the Attributes tab of the Form Fields. When No, the Form adopts the styling of where it's embedded.
 
 - **Theme** - Select a Mautic Theme which has styling for a Form. This dictates the styling of the Form when added to an external website or Application if 'Render style' is Yes.
 
@@ -105,7 +105,7 @@ To add a new field to your Form:
 
    - **Hidden** - This field won't be visible on the Form, but include default values, saved along with the Form submission, for reporting or internal tagging purposes.
 
-   - **List - Country** - This populates Mautic's default, non-editable country list. To use a custom list you should make use of the Select field type and manually enter the countries you would like to include.
+   - **Select: Country** - This populates Mautic's default, non-editable country list. To use a custom list you should make use of the Select field type and manually enter the countries you would like to include.
 
    - **Page break** - This allows marketers to break up the Form into multiple parts or field groupings.
 
@@ -117,13 +117,13 @@ To add a new field to your Form:
 
    - **Radio group** - This field provides a group of single-select options with a radio button, sometimes referred to as an option button group.
 
-   - **Select** - This option shows a dropdown list where a visitor may choose one option. This field also allows multiple selections, which changes the display to a box with the options listed. On a mobile device, a single select box shows a dialog box with radio buttons, and with checkboxes for a multi-select field.
+   - **Select: Single or multiple choices** - This option shows a dropdown list where a visitor may choose one option. This field also allows multiple selections, which changes the display to a box with the options listed. On a mobile device, a single select box shows a dialog box with radio buttons, and with checkboxes for a multi-select field.
 
    - **Social login** - This allows the visitor to connect their Twitter, Facebook or LinkedIn profiles with their Contact record. You must configure the Plugin for the social network before using this field.
 
-   - **Text** - This field shows a text box with 255 characters available. Common uses include specifying the visitor's first name, last name, city, and so forth.
+   - **Text: Short answer** - This field shows a text box with 255 characters available. Common uses include specifying the visitor's first name, last name, city, and so forth.
 
-   - **Text area** - Similar to the text field, but without the 255 character limitation. The text area field has a character limit of 65,535 characters.
+   - **Text: Paragraph** - Similar to the text field, but without the 255 character limitation. The text area field has a character limit of 65,535 characters.
 
    - **URL** - This field validates the entry as being in the expected format for a URL, including ``https://`` or ``http://``
 
